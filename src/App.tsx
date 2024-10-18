@@ -14,7 +14,9 @@ const App: React.FC = () => {
             <Navbar />
             <div className="container mt-4">
                 <Routes>
-                    <Route path="/" element={<Home />} />
+                    <Route index path="/" element={<Home />} />
+                    {/* Handle github-page*/}
+                    <Route path="/fumikos" element={<Home />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/gallery" element={<Gallery />} />
                     <Route path="/contact" element={<Contact />} />
