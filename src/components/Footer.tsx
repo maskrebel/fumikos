@@ -31,12 +31,12 @@ const Footer: React.FC = () => {
                     <div className="col-md-4">
                         <h5 className="text-uppercase mb-3">Merchant</h5>
                         <div className="d-flex">
-                            <a href="#" className="me-3 text-light">
+                            <a target="_blank" href={settings.urlTokopedia} className="me-3 text-light">
                                 <img src={TKPDLogo} width="50" height="50"/>Fumikos
                             </a>
                         </div>
                         <div className="d-flex">
-                            <a href="#" className="me-3 text-light">
+                            <a target="_blank" href={settings.urlShopee} className="me-3 text-light">
                                 <img src={SHPLogo} width="50" height="30"/>Fumikos.id
                             </a>
                         </div>
