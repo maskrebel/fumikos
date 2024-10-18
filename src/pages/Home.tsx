@@ -1,10 +1,10 @@
 import React from 'react';
+import CustomCarousel from "../components/Carousel";
 
 const Home: React.FC = () => {
     return (
         <div>
-            <h1>Welcome to Fumikos</h1>
-            <p>Your trusted home industry partner.</p>
+            <CustomCarousel />
         </div>
     );
 };
